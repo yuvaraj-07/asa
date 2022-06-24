@@ -1,5 +1,4 @@
 {
-  "homepage": "https://yuvaraj-07.github.io/asa/",
   "name": "handsign-alphabet",
   "private": true,
   "description": "A simple ASL (American Sign Language) alphabet detection using TensorFlow and Handpose model",
@@ -31,12 +30,9 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build" : "react-scripts build",
-    "test" : "react-scripts test",
-    "eject": "react - scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
