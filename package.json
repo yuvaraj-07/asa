@@ -31,8 +31,8 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "predeploy": "npm run butld",
-    "deploy": "gh-pages -d butld",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build" : "react-scripts build",
     "test" : "react-scripts test",
